@@ -1,3 +1,3 @@
 # portfolio
 
-Authors: Jimmy Mona
+Authors: Jimmy Mona "I add some text to the authors"
