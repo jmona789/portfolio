@@ -1,3 +1,3 @@
 # portfolio
 
-Author Baby Apple Picker
+Author Jimmy Mona, vaduait
