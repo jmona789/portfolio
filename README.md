@@ -1,3 +1,3 @@
 # portfolio
 
-Author: Apple Picker 
+Author: Little Baby Apple Picker
