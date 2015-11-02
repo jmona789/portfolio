@@ -1,3 +1,3 @@
 # portfolio
 
-Authors: Jimmy
+Authors: Jimmy Mona
