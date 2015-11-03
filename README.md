@@ -1,3 +1,3 @@
 # portfolio
 
-Author Jimmy Mona, vaduait
+Author: James Mona

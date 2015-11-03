@@ -1,0 +1,34 @@
+h1 {
+  margin:0px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#contact-info{
+  font-size: 12px;
+  margin-top: 0px; 
+  margin-bottom: 0px;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  background-color: lightgrey
+}
+
+#social {
+  display: block;
+}
+
+p, li, td, th, {
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-image{
+  width: 4%;
+}
+
+#first-logo{
+  margin-left: 15px
+}
