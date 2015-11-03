@@ -1,3 +1,3 @@
 # portfolio
 
-Author: Little Baby Apple Picker
+Author: James Mona
