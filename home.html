@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jimmy Mona's Portfolio</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+    
 </head>
+
 <body>
-  <h1>Jimmy Mona</h1>
-  <p id="contact-info">Phone: 973-703-3959 Email: <a href="mailto:jmona789@gmail.com">jmona789@gmail.com</a></p>
-  <br />
-  <img src="https://avatars2.githubusercontent.com/u/13789757?v=3&s=4600" id="main-picture">
-  <div id="social" >
-    <a href="https://github.com/jmona789" target="_blank"> <img src="images/github.png" class="logo-image" id="first-logo"/></a>
-    <a href="https://www.linkedin.com/pub/james-mona/108/388/577" target="_blank"><img src="images/linkedin.png" class="logo-image"  /></a>
-    <a href="http://stackoverflow.com/users/5460296/jmona789?tab=profile" target="_blank"><img src="images/stackoverflow.png" class="logo-image" /></a>
+  <div class="nav">
+    <div class="container">
+      <ul class = "pull-left">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="mailto:jmona789@gmail.com">Contact</a></li>
+      </ul>
+    </div>
   </div>
-  <h2>Education</h2>
-  <ul>
-    <li>Rutgers University BS: Animal Science 2007-2011</li>
-    <li>Rutgers Coding Bootcamp 2015-Present</li>
-  </ul>
-  <h2>Career Objective</h2>
-  <p>Looking for a full time posistion in a technology company in web development.  Also available for freelance work. </p>
-  <h2>Technologies/Skills</h2>
-  <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-  </ul>
-  <h2>Independent Projects</h2>
-  <table border="1">
-    <tr>
-      <th>Project</th>
-      <th>URL</th>
-    </tr>
-    <tr>
-      <td>Stackoverflow Clone, with working log in and sign in links</td>
-      <td><a href="https://afternoon-beyond-2601.herokuapp.com/">https://afternoon-beyond-2601.herokuapp.com/</a>
-    <tr>
-      <td>Blackjack</td>
-      <td><a href="https://github.com/jmona789/Blackjack">https://github.com/jmona789/Blackjack</a></td>
-    </tr>
-    <tr>
-      <td>This Page</td>
-      <td>N/A</td>
-    </tr>
-  </table>
-  <h2> Social Media</h2>
-  <ul>
-    <li>GitHub: <a href="https://github.com/jmona789">jmona789</a></li>
-    <li>LinkedIn: <a href="https://www.linkedin.com/pub/james-mona/108/388/577">jmona789</a></li>
-    <li>Stackoverflow:<a href="http://stackoverflow.com/users/5460296/jmona789?tab=profile">jmona789</a></li>
-  </ul>
-  <h2>Previous Work Experience</h2>
-  <ul>
-    <li>Red Roof Fort Lee Animal Hospital, Veterinary Assistant- April, 2015- August, 2015</li>
-    <li>Rutherford Animal Hospital, Veterinary Assistant- October, 2015- February, 2015</li>
-    <li>The Raptor Trust, Intern- May-September, 2014</li>
-    <li>Bergen County Zoo, Zoo Keeper- April-October 2012</li>
-  </ul>
+  <a name="home"></a>
+  <div class="jumbotron">
+    <div class="container">
+      <img class="profilePic" src="images/profilePic.png">
+      <h1>Jimmy Mona</h1>
+      <p id="contact">Phone: (973)-703-3959 <span>Email: <a href="mailto:jmona789@gmail.com">jmona789@gmail.com</span></p>
+      <p>Full Stack Web Develeoper</p>
+    </div>
+  </div> 
+  <a name="projects"></a>
+  <div class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Here are some of the prjects I've worked on.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            Placeholder
+          </div>
+          <div class="thumbnail">
+            Placeholder
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            Placeholder
+          </div>
+          <div class="thumbnail">
+            Placeholder
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            Placeholder
+          </div>
+          <div class="thumbnail">
+            Placeholder
+          </div>
+      </div>
+    </div>
+  </div>
+  <a name="skills"></a>
+  <div class="skills">
+    <div class="container">
+      <h3>Skills</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div>
+            <h4 class="skillName">HTML 5</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <h4 class="skillName">CSS 3</h4>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <h4 class="skillName">Javascript</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div>
+            <h4 class="skillName">jQuery</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
