@@ -15,11 +15,14 @@ $(document).ready(function() {
   });
 
   function buildTableRow(commitData) {
-    var shaTd = $("<td>").append(commitData.sha);
+    var commitUrl = commitData.html_url;
+    var shaTd = $("<td>").append($("<a href="+commitUrl+">").html(commitData.sha));
     var authorTd = $("<td>").append(commitData.author.login);
     var messageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
-
+    
+    
+    
     return $("<tr>").append(shaTd)
       .append(authorTd)
       .append(messageTd)

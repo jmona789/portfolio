@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "https://api.github.com/users/jmona789/repos?sort='pushed'",
+    url: "https://api.github.com/users/jmona789/repos?sort=pushed",
     success: function(repos) {
       for(var i = 0; i < repos.length; i++) {
         var newListItem = buildListGroup(repos[i]);
@@ -17,7 +17,7 @@ $(document).ready(function() {
     var commitsApiUrl = "https://api.github.com/repos/";
     commitsApiUrl += repoData.owner.login + "/";
     commitsApiUrl += repoData.name + "/commits";
-
+    
     var newLink = $("<a>")
       .attr("href", commitsApiUrl)
       .addClass("list-group-item")
