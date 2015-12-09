@@ -104,3 +104,12 @@ span{
   font-weight: bold;
   src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
+
+.thumbnail{
+  background-color: #eaeaea;
+}
+
+.thumbnail p{
+  margin-bottom: 0px;
+  padding-top:5px;
+}
